@@ -3,6 +3,16 @@ entries:
   bootstrap-cluster:
   - apiVersion: v2
     appVersion: 0.0.1
+    created: "2022-06-23T09:40:52.935336788Z"
+    description: A Helm chart for Bootstraping a K8s cluster with ArgoCD
+    digest: e8f34b961d0ebd39eac1ee4ac0ef7250a2b4f7c2bb043c0e9c36259ee408e3fd
+    name: bootstrap-cluster
+    type: application
+    urls:
+    - https://github.com/sanyu/helm-charts/releases/download/bootstrap-cluster-0.2.0/bootstrap-cluster-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 0.0.1
     created: "2022-06-23T09:31:43.127183104Z"
     description: A Helm chart for Kubernetes
     digest: acac5dd1662498a0d97eded638fed8d174c85244cd83afe31b85b7faac00b115
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://github.com/sanyu/helm-charts/releases/download/bootstrap-cluster-0.1.0/bootstrap-cluster-0.1.0.tgz
     version: 0.1.0
-generated: "2022-06-23T09:31:43.127187404Z"
+generated: "2022-06-23T09:40:52.935345988Z"
