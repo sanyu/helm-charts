@@ -1,0 +1,5 @@
+# Default values for bootstrap-cluster.
+
+projectName: platform-demo
+repoURL: https://github.com/sanyu/platform-demo.git
+bootstrapPath: rancher
