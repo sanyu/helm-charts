@@ -120,7 +120,9 @@ spec:
     namespace: {{ .Release.Namespace }}
     port: {{ .Values.multicluster.clusterGateway.port }}
   versionPriority: 10
+  {{ if not .Values.multicluster.clusterGateway.secureTLS.certManager.enabled }}
   insecureSkipTLSVerify: {{ not .Values.multicluster.clusterGateway.secureTLS.enabled }}
+  {{ end }}
   {{ if .Values.multicluster.clusterGateway.secureTLS.enabled }}
   caBundle: Cg==
   {{ end }}

@@ -14,7 +14,7 @@ metadata:
   namespace: {{ .Release.Namespace }}
 spec:
   secretName: {{ template "kubevela.fullname" . }}-cluster-gateway-tls-v2
-  duration: 8760h # 1y
+  duration: 8760h0m0s # 1y
   issuerRef:
     name: {{ template "kubevela.fullname" . }}-cluster-gateway-issuer
   dnsNames:
