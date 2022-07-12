@@ -21,4 +21,17 @@ entries:
     urls:
     - https://github.com/sanyu/helm-charts/releases/download/bootstrap-cluster-0.1.0/bootstrap-cluster-0.1.0.tgz
     version: 0.1.0
-generated: "2022-06-23T09:40:52.935345988Z"
+  vela-core:
+  - apiVersion: v2
+    appVersion: 1.4.6
+    created: "2022-07-12T12:25:19.285850327Z"
+    description: A Helm chart for KubeVela core
+    digest: 62cd6470355a09ccced02dddb16209129c91ee5e5c11d8c05c0c0bb449db1e0f
+    home: https://kubevela.io
+    icon: https://kubevela.io/img/logo.svg
+    name: vela-core
+    type: application
+    urls:
+    - https://github.com/sanyu/helm-charts/releases/download/vela-core-1.4.6/vela-core-1.4.6.tgz
+    version: 1.4.6
+generated: "2022-07-12T12:25:19.285863427Z"
