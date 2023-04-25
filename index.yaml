@@ -3,6 +3,16 @@ entries:
   bootstrap-cluster:
   - apiVersion: v2
     appVersion: 0.0.1
+    created: "2023-04-25T10:32:47.637781213Z"
+    description: A Helm chart for Bootstraping a K8s cluster with ArgoCD
+    digest: b370c2ff6a093f1dec15b696bcc69eebd80125864773c67c3abb2da5ce2aa148
+    name: bootstrap-cluster
+    type: application
+    urls:
+    - https://github.com/sanyu/helm-charts/releases/download/bootstrap-cluster-0.3.0/bootstrap-cluster-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v2
+    appVersion: 0.0.1
     created: "2022-06-23T09:40:52.935336788Z"
     description: A Helm chart for Bootstraping a K8s cluster with ArgoCD
     digest: e8f34b961d0ebd39eac1ee4ac0ef7250a2b4f7c2bb043c0e9c36259ee408e3fd
@@ -34,4 +44,4 @@ entries:
     urls:
     - https://github.com/sanyu/helm-charts/releases/download/vela-core-1.4.6/vela-core-1.4.6.tgz
     version: 1.4.6
-generated: "2022-07-12T12:25:19.285863427Z"
+generated: "2023-04-25T10:32:47.637790813Z"
