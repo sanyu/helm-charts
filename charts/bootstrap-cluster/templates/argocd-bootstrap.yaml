@@ -32,7 +32,7 @@ spec:
   project: {{ .Values.projectName }}
   source:
     repoURL: {{ .Values.repoURL }}
-    targetRevision: HEAD
+    targetRevision: {{ .Values.targetRevision }}
     path: {{ .Values.bootstrapPath }}
     directory:
       recurse: true
